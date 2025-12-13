@@ -4,7 +4,8 @@ import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
 import about_image from './about_image.png'
-import logo from './logo.svg'
+// import logo from './logo.svg'
+import logo from './logo_01.png'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
@@ -32,7 +33,7 @@ import doc14 from './doc14.png'
 import doc15 from './doc15.png'
 import Dermatologist from './Dermatologist.svg'
 import Gastroenterologist from './Gastroenterologist.svg'
-import General_physician from './General_physician.svg'
+import General_physician from './generalphysician.png'
 import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
@@ -58,35 +59,33 @@ export const assets = {
     razorpay_logo
 }
 
-export const specialityData = [
-    {
+export const specialityData = [{
         speciality: 'General physician',
-        image: General_physician
+        image: "https://imgs.search.brave.com/nEc7OESRzBkWlz3UBFX0UBgbdWdRU7HqzsNuhjCqeu0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA5LzY0LzEzLzkz/LzM2MF9GXzk2NDEz/OTM3Nl9LU2VUOEJt/aEVFdkpjY1FxUTY4/bzZ2NmYyWHVIV0dS/Yy5qcGc"
     },
     {
         speciality: 'Gynecologist',
-        image: Gynecologist
+        image: "https://img.freepik.com/free-photo/front-view-doctor-holding-anatomic-model_23-2149351652.jpg?t=st=1744439786~exp=1744443386~hmac=39dddafef924706b3236898eaff79522b58c258bd54661c68742ba8fcd95019c&w=996"
     },
     {
         speciality: 'Dermatologist',
-        image: Dermatologist
+        image: "https://img.freepik.com/free-photo/woman-beauty-clinic-filler-treatment_23-2148878907.jpg?t=st=1744439961~exp=1744443561~hmac=af1fe4634eed62f221ca4545750ce096beb6d06b12c70f587e6264d71cb4d1c6&w=740"
     },
     {
         speciality: 'Pediatricians',
-        image: Pediatricians
+        image: "https://img.freepik.com/free-photo/young-mother-with-toddle-pediatrician-consultation_23-2149187446.jpg?t=st=1744440071~exp=1744443671~hmac=279bd95421570a1762dea285e46ba747dc187b0bff5d73b554467ebbfbeaa1e7&w=996"
     },
     {
         speciality: 'Neurologist',
-        image: Neurologist
+        image: "https://img.freepik.com/free-photo/researcher-looking-monitor-analysing-brain-scan-while-coworker-discussing-with-patient-background-about-side-effects-mind-functions-nervous-system-tomography-scan-working-laboratory_482257-13071.jpg?t=st=1744440139~exp=1744443739~hmac=7d521fbd5d454b421a0755178de91212bddbde48b1d2ba67a0d2b9c7d2f101a9&w=1380"
     },
     {
         speciality: 'Gastroenterologist',
-        image: Gastroenterologist
+        image: "https://imgs.search.brave.com/8X6N1-k-P8KPa1darixcHIcgl4eZ0YHb5J7IFbRZWuE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/ODYyODgwMS9waG90/by9nYXN0cm9lbnRl/cm9sb2dpc3Qtc2hv/d2luZy1odW1hbi1j/b2xvbi1tb2RlbC1h/dC10YWJsZS1pbi1j/bGluaWMtY2xvc2V1/cC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9LXZNNGFVaWRv/TnNRa3B6ZGNWU0Fl/anlFS2FUVmJtcFB1/LVlKd3RaeEZqOD0"
     },
 ]
 
-export const doctors = [
-    {
+export const doctors = [{
         _id: 'doc1',
         name: 'Dr. Richard James',
         image: doc1,

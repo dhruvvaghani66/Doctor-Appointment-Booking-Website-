@@ -6,3 +6,7 @@ const connectDB = async () => {
 }
 
 export default connectDB
+
+
+
+// YnUPeJlmsdzuc8GW
