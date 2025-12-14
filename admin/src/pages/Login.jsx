@@ -101,7 +101,7 @@ const Login = () => {
           toast.success("Login Successful");
 
           // ✅ Redirect to admin dashboard
-          navigate("/dashboard");
+          navigate("/admin-dashboard");
         } else {
           toast.error(data.message);
         }
